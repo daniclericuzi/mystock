@@ -13,4 +13,12 @@ public class ItemService {
 
         return item;
     }
+
+    public Boolean checkQuantity(int quantity) {
+        boolean result = false;
+        if (quantity >= 0){
+            result = true;
+        }
+        return result;
+    }
 }
